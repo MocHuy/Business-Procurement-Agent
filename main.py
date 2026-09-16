@@ -5,8 +5,7 @@ from llm_client import get_llm_response
 
 def main() -> None:
     prompt = (
-        "Bạn là trợ lý mua hàng cho doanh nghiệp. "
-        "Hãy liệt kê 5 tiêu chí quan trọng khi đánh giá một nhà cung cấp mới."
+        "Bạn có thể tự giới thiệu bản thân không?"
     )
 
     print("Đang gửi prompt tới LLM...\n")
